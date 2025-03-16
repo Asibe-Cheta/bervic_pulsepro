@@ -50,7 +50,7 @@ export const PatientForm = () => {
         name = "name"
         label = "Full name"
         placeholder = "John Doe"
-        iconSrc = "/assets/icons/user-jpg.png"
+        iconSrc = "/assets/icons/user-svg.png"
         iconAlt = "user"
       />
       <CustomFormField 
@@ -59,7 +59,7 @@ export const PatientForm = () => {
         name = "email"
         label = "Email"
         placeholder = "johndoe@bervicdigital.com"
-        iconSrc = "/assets/icons/email.png"
+        iconSrc = "/assets/icons/email.svg"
         iconAlt = "user"
       />
       <CustomFormField 
@@ -68,8 +68,6 @@ export const PatientForm = () => {
         name = "phone"
         label = "Phone number"
         placeholder = "(555) 123-4567"
-        iconSrc = "/assets/icons/email.png"
-        iconAlt = "user"
       />
       <SubmitButton isLoading = {isLoading}>
         Get Started
