@@ -50,7 +50,7 @@ export const PatientForm = () => {
         name = "name"
         label = "Full name"
         placeholder = "John Doe"
-        iconSrc = "/assets/icons/user-svg.png"
+        iconSrc = "/assets/icons/user.svg"
         iconAlt = "user"
       />
       <CustomFormField 
